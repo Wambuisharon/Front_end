@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #F4F4F4;
+}
+
+.navigation {
+  background: #FFFFFF;
+  padding: 1em 10%;
+  border-bottom: 1.5px solid #E6E6E6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation .logo {
+  width: 10em;
+  height: 2.5em;
+  background-image: url(../images/logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.navigation .search {
+  background: #f8f8f8;
+  border: 1px solid #E6E6E6;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .2em .5em;
+  width: 15em;
+}
+
+.navigation .search .search_icon {
+  width: .8em;
+  height: .8em;
+  margin-right: .5em;
+  border-radius: .2em;
+  background-image: url(../images/search.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.navigation .search .search_box {
+  color: #888D95;
+}
+
+.navigation .search .search_box:focus {
+  border: none;
+  outline: none;
+}
+
+.navigation .icons {
+  display: flex;
+  align-items: center;
+}
+
+.navigation .icons .icon {
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.navigation .icons .icon.explore {
+  background-image: url(../images/explore.png);
+}
+
+.navigation .icons .icon.like {
+  background-image: url(../images/like.png);
+}
+
+.navigation .icons .icon.user {
+  background-image: url(../images/user.png);
+}
+
+.main_body {
+  width: 500px;
+  margin: auto;
+  padding-bottom: 2.5em;
+}
+
+.main_body .insta_post {
+  width: 100%;
+  margin-top: 2.5em;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  color: #262626;
+}
+
+.main_body .insta_post .header {
+  padding: .5em 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_body .insta_post .header .the_user {
+  display: flex;
+  align-items: center;
+}
+
+.main_body .insta_post .header .the_user .user_avi {
+  width: 2.1em;
+  height: 2.1em;
+  margin-right: .5em;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main_body .insta_post .header .time {
+  color: #888D95;
+}
+
+.main_body .insta_post .image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.main_body .insta_post .footer {
+  padding: .5em 1.5em;
+}
+
+.main_body .insta_post .footer .likes {
+  padding: .5em 0;
+  padding-bottom: .65em;
+  border-bottom: 1px solid #E6E6E6;
+  font-weight: 600;
+}
+
+.main_body .insta_post .footer .comments {
+  padding: .85em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_body .insta_post .footer .comments .comment {
+  display: flex;
+  align-items: center;
+  color: #888D95;
+}
+
+.main_body .insta_post .footer .comments .comment .like_icon {
+  width: 1.25em;
+  height: 1.25em;
+  margin-right: .85em;
+  background-image: url(../images/like.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.main_body .insta_post .footer .comments .comment .like_icon.liked {
+  background-image: url(../images/liked.png);
+}
+
+.main_body .insta_post .footer .comments .menu {
+  width: 1.5em;
+  height: 1em;
+  background-image: url(../images/menu.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
